@@ -1,9 +1,20 @@
 body { padding: 100px; }
 
-.bar {
-    display: inline-block;
-    width: 20px;
-    height: 75px;
-    margin-right: 2px;
-    background-color: teal;
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
 }
+
+.circle {
+  fill: teal;
+  fill-opacity: 0.7;
+  stroke: black;
+}
+
+.circle:hover {
+  fill: red;
+}
+
+#chart svg { background: rgb(220,220,220); }
